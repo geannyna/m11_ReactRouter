@@ -16,7 +16,7 @@ function LoginPage() {
        // mostraremos un mensaje de éxito.
       alert('Autenticación exitosa');
     } else{
-      alert('Error de autenticación');
+      alert('Error de autenticación. El usuario o la contraseña no coinciden.');
     }
   };
 
@@ -45,7 +45,7 @@ function LoginPage() {
             required
           />
         </div>
-        <button type="submit">Iniciar sesión</button>
+        <button className='boton' type="submit">Iniciar sesión</button>
       </form>
     </div>
   );

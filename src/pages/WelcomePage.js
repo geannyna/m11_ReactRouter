@@ -5,7 +5,7 @@ function WelcomePage() {
     <div>
       <h2>Bienvenido</h2>
        <p>***** Has iniciado sesión con éxito *****</p>
-      <section class="welcome_img">
+      <section className="welcome_img">
             <img src="./img/cafe_welcome.jpg" alt="Cafe" />
         </section>
     </div>
